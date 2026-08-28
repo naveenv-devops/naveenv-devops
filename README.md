@@ -29,7 +29,7 @@
 
 <div align="center">
 
-![Naveen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=naveenv-devops&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=naveenv-devops&show_icons=true&theme=tokyonight&count_private=true&hide_border=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=naveenv-devops&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9)
 
