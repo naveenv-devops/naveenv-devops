@@ -46,24 +46,33 @@
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=naveenv-devops&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF9F43)
+<!-- Primary host (github-readme-activity-graph.vercel.app) is currently paused by its maintainer.
+     Using community-hosted fallback until it's restored, or you deploy your own instance. -->
+![Activity Graph](https://fabianocouto-activity-graph.vercel.app/graph/?username=naveenv-devops)
 
 <br/>
 
-![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=naveenv-devops&theme=tokyonight)
+![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=naveenv-devops&theme=tokyonight)
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=naveenv-devops&theme=tokyonight" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=naveenv-devops&theme=tokyonight" width="49%" />
 
 </div>
 
-**Contribution snapshot:**
+**What these cards track (pulled live from the GitHub API — no manual updates needed):**
 
-| Metric | Count |
+| Metric | Where it shows |
 |---|---|
-| 💾 Commits (last year) | *auto-updates via card above* |
-| 🔀 Pull Requests | *auto-updates via card above* |
-| 🐛 Issues Opened | *auto-updates via card above* |
-| 👀 Code Reviews | *auto-updates via card above* |
+| 💾 Total & recent commits | Stats card + streak card above |
+| 🔀 Pull requests (open/merged) | Profile summary card |
+| 🐛 Issues (opened/closed) | Profile summary card |
+| 👀 Code reviews given | Profile summary card |
+| ⭐ Stars earned | Stats card |
+| 🗓️ Daily activity (last 31 days) | Activity graph above |
 
-> 💡 These numbers pull live from the GitHub API through the cards above, so they always stay current — no manual editing needed.
+> ⚠️ **Known issue:** The official activity-graph host is paused; the fallback above works but renders in its default theme (can't be color-matched right now). See note above for self-hosting if you want full theme control.
 
 ---
 
