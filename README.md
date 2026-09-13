@@ -187,6 +187,8 @@
 | 2 | [`kubernetes-sigs/kueue`](https://github.com/kubernetes-sigs/kueue) | 🔀 PR | [Support in-place workload resource updates in Kueue scheduler](https://github.com/kubernetes-sigs/kueue/pull/12776) | 🟡 Open |
 | 3 | [`kubernetes/kubernetes`](https://github.com/kubernetes/kubernetes) | 🐛 Issue | [Pod resize status not propagated correctly after kubelet restart](https://github.com/kubernetes/kubernetes/issues/139582) | 🟡 Open |
 | 4 | [`kubernetes-sigs/cluster-api-provider-azure`](https://github.com/kubernetes-sigs/cluster-api-provider-azure) | 🔀 PR | [Reconcile VM SKU changes for in-place vertical scaling in CAPZ](https://github.com/kubernetes-sigs/cluster-api-provider-azure/pull/6580) | 🟡 Open |
+| 5 | [`kubernetes-sigs/cluster-api-provider-aws`](https://github.com/kubernetes-sigs/cluster-api-provider-aws) | 🔀 PR | [Support in-place EC2 instance type changes for vertical pod autoscaling](https://github.com/kubernetes-sigs/cluster-api-provider-aws/pull/6212) | 🟡 Open |
+| 6 | [`kubernetes-sigs/cluster-api-provider-aws`](https://github.com/kubernetes-sigs/cluster-api-provider-aws) | 🐛 Issue | [CAPA does not reconcile instance type changes needed for in-place resize](https://github.com/kubernetes-sigs/cluster-api-provider-aws/issues/6170) | 🟡 Open |
 
 <details>
 <summary>📖 Contribution details</summary>
@@ -210,6 +212,16 @@ Filed and tracked a core kubelet bug where in-flight pod resize requests lose th
 
 **🔹 CAPZ: VM SKU reconciliation for in-place vertical scaling** · [`kubernetes-sigs/cluster-api-provider-azure #6580`](https://github.com/kubernetes-sigs/cluster-api-provider-azure/pull/6580)
 Extending the Cluster API Provider for Azure to handle VM-level resource resizing aligned with Kubernetes in-place pod resize semantics — reducing cluster churn and improving workload continuity without full node replacement.
+
+---
+
+**🔹 CAPA: In-place EC2 instance type changes for vertical pod autoscaling** · [`kubernetes-sigs/cluster-api-provider-aws #6212`](https://github.com/kubernetes-sigs/cluster-api-provider-aws/pull/6212)
+Extending the Cluster API Provider for AWS to reconcile EC2 instance type changes in response to in-place pod resize requests. Enables CAPA-managed nodes to scale vertically without draining and replacing instances, preserving workload continuity and reducing operational overhead on AWS.
+
+---
+
+**🔹 Bug: CAPA does not reconcile instance type changes for in-place resize** · [`kubernetes-sigs/cluster-api-provider-aws #6170`](https://github.com/kubernetes-sigs/cluster-api-provider-aws/issues/6170)
+Filed the upstream issue identifying that CAPA lacks the reconciliation logic to handle EC2 instance type mutations triggered by Kubernetes in-place pod resize. Includes gap analysis against the CAPZ implementation, reproduction steps, and the proposed fix tracked in PR #6212.
 
 </details>
 
