@@ -32,10 +32,6 @@
 ![GitHub Streak](https://streak-stats.demolab.com?user=naveenv-devops&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF9F43&currStreakLabel=58A6FF)
 
 <br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=naveenv-devops&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=FF9F43" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=naveenv-devops&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" width="49%" />
-
 </div>
 
 > 📌 The card above shows total commits, PRs, issues, and stars. **Note:** `count_private=true` only reveals private-repo counts if you're viewing your own README while logged in, or if computed via a personal GitHub Action — public visitors otherwise see public-only counts.
